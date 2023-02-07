@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";
+*{
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    transition: 0.5s;
+    flex-direction: column;
+}
+.login{
+    position: relative;
+    padding: 50px;
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 0px 15px 55px whitesmoke;
+}
+#txt{
+    
+    border-left: 15px solid rgb(51, 47, 47);
+    padding-left: 10px;
+    line-height: 1em;
+    transition: 0.5s;
+    color: #333;
+}
+.login .inputbox {
+    position: relative;
+}
+.login .inputbox input{
+    position: relative;
+    width: 100%;
+    padding: 10px 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: auto;
+    font-size: 1em;
+    color: #333;
+}
+#btn{
+    border: none;
+    background-color: rgb(51,47,47);
+    color: whitesmoke;
+    transition: 0.5s;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+.login .group{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.login .group a{
+    text-decoration: none;
+    color: #333;
+}
+.login .group a:nth-child(2){
+    text-decoration: underline;
+}
+.colors{
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.colors span{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: var(--clr);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.colors span.active{
+    border: 2px solid black;
+    scale: 1.3;
+}
+

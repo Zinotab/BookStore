@@ -1,0 +1,125 @@
+@charset "ISO-8859-1";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.NewBooks {
+    width: 100vw;
+    background-image: radial-gradient(rgba(183, 183, 204, 0.205),white,rgb(170, 160, 160));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    border-bottom: 2px black solid;
+    border-top: 2px black solid;
+}
+.BestBooks{
+	    width: 100vw;
+    background-image: radial-gradient(rgba(183, 183, 204, 0.205),white,rgb(170, 160, 160));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    border-bottom: 2px black solid;
+    border-top: 2px black solid;
+}
+.title{
+    font-weight: 700;
+    font-family: 'Tahoma';
+    margin-bottom: 100px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    
+}
+.card-book{
+    border: 2px rgb(230, 210, 210) solid;
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    width: 25%;
+}
+.img-New-Book{
+    width: 60%;
+    height: 70%;
+    
+}
+.Name-New-Book{
+    font-family: 'Tahoma';
+    margin-bottom: 15px;
+    width: 100%;
+    height: 78px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.Date-New-Book{
+    font-family: 'Tahoma';
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.btn-discover{
+    font-family: 'Tahoma';
+    padding: 10px 50px;
+    font-weight: 800;
+}
+
+
+html{
+    font-size: 95.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+.carousel-item {
+    top: 0px;
+    height: 32rem;
+    background: #777;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+}
+
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.slide-container{
+    max-width: 1120px;
+    width: 100vw;
+    padding: 4rem 0;
+  }
+  .slide-container h3{
+    color: darkgreen;
+    text-align: center;
+    font-size: 3.1em;
+    font-weight: 400;
+    transition: 0.7s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+  }
+  .slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+  }

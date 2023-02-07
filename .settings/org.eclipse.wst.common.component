@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                
+    
+    
+    <wb-module deploy-name="BookStore">
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/webapp/AuthorImages"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/webapp/UserImages"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/webapp/BookImages"/>
+                                
+        
+        
+        <property name="java-output-path" value="/BookStore/build/classes"/>
+                
+        <property name="context-root" value="BookStore"/>
+                            
+    
+    
+    </wb-module>
+            
+
+
+</project-modules>

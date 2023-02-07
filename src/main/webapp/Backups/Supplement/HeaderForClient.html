@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Header For Client</title>
+<link rel="stylesheet" type="text/css" href="/BookStore/Backups/Supplement/HeaderForClient.css" />
+        <link rel="shortcut icon"  href="../../admin/all_assets/images/favicon.png" sizes="16x16" type="image/png">
+
+</head>
+<body>
+<header>
+        <div class="head1">
+            <h2 class="TDP">BookShop</h2>
+            <div class="search-wrap">
+                <form class="inputSearchBooks" action="searchForAuthorsAndBooks" method="get">
+                    <input style="font-family: sans-serif;" type="text" placeholder="Search for books or author by keyword / title / author / ISBN" aria-label="Search for books by keyword / title / author / ISBN" name="searchTerm" class="text-input" value="">
+                    <button onclick="location.href='#';" aria-label="Search" class="header-search-btn" type="submit"><span class="text">Search</span></button>
+                </form>
+            </div>
+            <div class="groupBTN" style="
+            display: flex;
+    		justify-content: space-between;
+    		flex-direction: row;
+    		gap: 16px;
+    		align-items: center;
+            
+            ">
+            <button style="width:100px;" onclick="location.href='/BookStore/Backups/ProfilePage/ProfiePage.jsp';" class="buttonSub" type="button" name="buttonSub"><%= result %></button>
+        	<a href="../HOME/HOME.jsp?LO=true" style="text-decoration: none;"><button id="LogOut-btn" style="	background-color: inherit;
+	border: none;
+	font-size:1.6rem;
+	color: white;
+	display: flex;
+	padding-top:7px;
+	margin:5px;
+	"><ion-icon name="log-out-outline"></ion-icon></button></a>
+        	</div>
+        </div>
+        <div class="head2">
+            <nav class="header-nav">
+                <ul class="list-OF-links">
+                    <li><a href="/BookStore/Backups/HOME/HOME.jsp" style="--COLOR-FOR-EVERY-LINK: #16C916">Home</a></li>
+                    <li><a href="/BookStore/Backups/BooksPage/BooksPage.jsp" style="--COLOR-FOR-EVERY-LINK: #16C9DF">Books</a></li>
+                    <li><a href="/BookStore/Backups/AuthorsPage/AuthorsPage.jsp" style="--COLOR-FOR-EVERY-LINK: #EDC99D">Authors</a></li>
+                    <li><a href="/BookStore/Backups/AboutUsPage/AboutUsPage.jsp" style="--COLOR-FOR-EVERY-LINK: #EDC9EC">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+</html>

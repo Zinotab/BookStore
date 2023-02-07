@@ -1,0 +1,369 @@
+
+:root {
+  --title: whitesmoke;
+  --white: rgb(0, 0, 0);
+  --grey: #eeeeee;
+  --dark-grey: #858585;
+  --blue-color: #2196f3;
+}
+
+/* General Syling */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  /*background: var(--blue-color); */
+  background-image: url("/BookStore/Assets/LibraryBG2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+/* Form Sign-Up */
+
+
+.signup-form {
+  display: flex;
+  padding: 50px;
+  max-width: 500px;
+  border-radius: 20px;
+  
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--white);
+  margin: 100px auto 0 auto;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.199);
+  
+  background-color: rgba(0, 0, 0, 0.7);
+  
+}
+.title{
+  color: var(--title);
+}
+
+.signup-form .title {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: calc(35 / 16 * 1rem);
+}
+
+input {
+  outline: none;
+  margin: 20px 0;
+  font-weight: 500;
+  border-radius: 10px;
+  color: var(--dark-grey);
+  background: var(--grey);
+  padding: 20px 5px 5px 10px;
+  border: var(--grey) 3px solid;
+  font-size: calc(18 / 16 * 1rem);
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 500px;
+}
+
+input[type="text"] {
+  width: 500px;
+}
+/* Wrapper */
+
+.input-wrapper {
+  display: flex;
+}
+
+#first-name,
+#last-name {
+  width: 230px;
+}
+
+.input-wrapper .mv-right {
+  margin-right: 20px;
+}
+
+/* Label */
+
+.label {
+  position: relative;
+}
+
+.label p,
+.label i {
+  z-index: 1;
+  position: absolute;
+  color: var(--dark-grey);
+  font-size: calc(18 / 16 * 1rem);
+}
+
+.label-text {
+  top: 18px;
+  left: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.input-wrapper .label .f-name {
+  right: 35px;
+  bottom: 36px;
+  font-size: calc(20 / 16 * 1rem);
+}
+
+.label i {
+  right: 15px;
+  bottom: 36px;
+  transform-origin: left;
+  font-size: calc(20 / 16 * 1rem);
+}
+
+/* Button */
+
+.submit-btn {
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 30px 0 0;
+  padding: 15px 20px;
+
+  color: var(--white);
+  transition: all 0.3s ease;
+  background: var(--blue-color);
+  font-size: calc(18 / 16 * 1rem);
+}
+
+.submit-btn:hover {
+  background: #1b84da;
+}
+
+.fa-check {
+  font-size: calc(20 / 16 * 1rem);
+  padding: 0px 60px;
+}
+
+/* Animation / Hover state */
+
+input:not(:placeholder-shown) + .label-text,
+input:focus + .label-text {
+  top: 20px;
+  left: 13px;
+  color: var(--blue-color);
+  transform: translateY(-10px);
+  font-size: calc(14 / 16 * 1rem);
+}
+
+/* Eye */
+
+.fa-eye {
+  cursor: pointer;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 38.125rem) {
+  /* Form Sign-Up */
+
+  .signup-form {
+    padding: 50px;
+    max-width: 400px;
+    margin: 100px auto 0 auto;
+  }
+
+  .signup-form .title {
+    margin-bottom: 20px;
+    font-size: calc(35 / 16 * 1rem);
+  }
+
+  input {
+    margin: 20px 0;
+    padding: 20px 5px 5px 10px;
+    font-size: calc(18 / 16 * 1rem);
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 400px;
+  }
+
+  input[type="text"] {
+    width: 400px;
+  }
+  /* Wrapper */
+
+  #first-name,
+  #last-name {
+    width: 178px;
+  }
+
+  .input-wrapper .mv-right {
+    margin-right: 20px;
+  }
+
+  /* Label */
+  .label p,
+  .label i {
+    font-size: calc(18 / 16 * 1rem);
+  }
+
+  .label-text {
+    top: 18px;
+    left: 15px;
+  }
+
+  .input-wrapper .label .f-name {
+    right: 35px;
+    bottom: 36px;
+    font-size: calc(20 / 16 * 1rem);
+  }
+
+  .label i {
+    right: 15px;
+    bottom: 36px;
+    transform-origin: left;
+    font-size: calc(20 / 16 * 1rem);
+  }
+
+  /* Button */
+
+  .submit-btn {
+    margin: 30px 0 0;
+    padding: 15px 20px;
+    font-size: calc(18 / 16 * 1rem);
+  }
+}
+
+@media (max-width: 29.375rem) {
+  /* Form Sign-Up */
+
+  input {
+    margin: 20px 0;
+    padding: 20px 5px 5px 10px;
+    font-size: calc(18 / 16 * 1rem);
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 370px;
+  }
+
+  input[type="text"] {
+    width: 370px;
+  }
+  /* Wrapper */
+
+  #first-name,
+  #last-name {
+    width: 165px;
+  }
+}
+
+@media (max-width: 26.25rem) {
+  /* Form Sign-Up */
+
+  .signup-form {
+    padding: 30px;
+    max-width: 280px;
+    margin: 100px auto 0 auto;
+  }
+
+  .signup-form .title {
+    margin-bottom: 20px;
+    font-size: calc(30 / 16 * 1rem);
+  }
+
+  input {
+    margin: 20px 0;
+    padding: 20px 5px 5px 10px;
+    font-size: calc(18 / 16 * 1rem);
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 250px;
+  }
+
+  input[type="text"] {
+    width: 250px;
+  }
+  /* Wrapper */
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #first-name,
+  #last-name {
+    width: 250px;
+  }
+
+  .input-wrapper .mv-right {
+    margin-right: 0;
+  }
+
+  .input-wrapper .label .f-name {
+    right: 15px;
+    bottom: 36px;
+    font-size: calc(20 / 16 * 1rem);
+  }
+
+  .label i {
+    right: 15px;
+    bottom: 36px;
+    transform-origin: left;
+    font-size: calc(20 / 16 * 1rem);
+  }
+  /* Button */
+
+  .submit-btn {
+    margin: 30px 0 0;
+    padding: 12px 20px;
+    font-size: calc(18 / 16 * 1rem);
+  }
+}
+.group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.submit-btn {
+  
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: whitesmoke;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  background-color: black;
+  border: 2px whitesmoke solid;
+  letter-spacing: 4px;
+}
+.submit-btn:hover {
+  background: whitesmoke;
+  color: black;
+  border: 2px black solid;
+  border-radius: 5px;
+  box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke, 0 0 50px whitesmoke,
+    0 0 100px #03e9f4;
+}
+
+.link-Login{
+  font-family: 'Poppins';
+  font-weight: bolder;
+  margin-top: 30px;
+  color: whitesmoke;
+  text-decoration: none;
+  
+}
+.BDDD{
+
+  margin-right: 325px;
+  width: 95.5%;
+  
+}

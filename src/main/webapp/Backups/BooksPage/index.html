@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Backups/BooksPage/style.css">
+    <style type="text/css">
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.containerSearchByCategory{
+    
+    width: 100vw;
+    background-color: rgb(216, 212, 207);
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    flex-flow: row wrap;
+
+}
+.containerSearch{
+    
+    width: 100vw;
+    background-color: rgb(216, 212, 207);
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    flex-flow: row wrap;
+}
+.btns{
+    margin: 30px 5px -5px 5px;
+    
+    
+}
+input{
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Tahoma';
+}
+input:hover{
+    background-color: rgb(216, 212, 207);
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="containerSearch" style="
+    width: 100vw;
+    background-color: rgb(216, 212, 207);
+    display: flex;
+    justify-content: center;">
+        <form class="btns" action="NewBooks" method="get">
+            <input type="submit" value="New Books">
+        </form>
+        <form class="btns" action="MostLikedBooks" method="get">
+            <input type="submit" value="Most Liked Books">
+        </form>
+        <form class="btns" action="BestSellingBooks" method="get">
+            <input type="submit" value="Best Selling Books">
+        </form>
+        <form class="btns" action="TheMostExpensiveBooks" method="get">
+            <input type="submit" value="The Most Expensive Books">
+        </form>
+        <form class="btns" action="TheMostBooksInTheNumberOfPages" method="get">
+            <input type="submit" value="The most books in the number of pages">
+        </form>
+    </div>
+    
+</body>
+</html>
