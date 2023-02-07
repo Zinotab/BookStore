@@ -33,3 +33,16 @@ fix that.
 
 # Partner
 <a href="https://github.com/houachedaoud">@houachedaoud</a>
+
+
+# Pictures
+admin
+![localhost_8081_BookStore_AdminDashboard_BookList jsp_](https://user-images.githubusercontent.com/112221202/217351160-0c3eeed3-35fa-4454-9a62-3c8c6813891b.png)
+buy method 
+![CanbuyBook](https://user-images.githubusercontent.com/112221202/217351349-845a63d4-25be-462e-bef8-3f9e8494c052.PNG)
+about us
+![aboutus](https://user-images.githubusercontent.com/112221202/217351419-109d4224-3749-4e52-a4e3-76c49340aba4.png)
+author
+![authors](https://user-images.githubusercontent.com/112221202/217351446-6e44b4f7-1d1c-4e8b-94ed-1d0dd53368e7.png)
+book page
+![books](https://user-images.githubusercontent.com/112221202/217351484-0649b0f3-5bba-4867-8fe6-feaa6d487cce.png)
