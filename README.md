@@ -5,7 +5,7 @@ This project is built using java servlet framework and oracle database This proj
 1-open the final script folder and excute the file of sql by creating the tables and fill it 
 2-import java project to JEE ECLIPSE (ECLIPSE FOR WEB DEVELOPERS)
 3-change the path of the labraries by clicking right on the project enter to build path configuration
-4-then open package com.zed.bookstore.dao then open class ConnectToDataBase and change the variables according to your oracle configs
+4-then open package com.zed.bookstore.dao then open class DatabaseConnection and change the variables according to your oracle configs
 5-open and jsp file and run the code on server tomcat
 
 #bug
