@@ -31,4 +31,4 @@ fix that.
 <pre>4-Adding the like button to each book and allowing them to comment their opinion on the book</pre>
 <pre>5-Allow customer to give their feedback on the site </pre>
 
-<a src="https://github.com/houachedaoud">@houachedaoud</a>
+<a href="https://github.com/houachedaoud">@houachedaoud</a>
